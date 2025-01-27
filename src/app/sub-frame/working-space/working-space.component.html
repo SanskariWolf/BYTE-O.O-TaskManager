@@ -1,0 +1,12 @@
+<div class="main">
+    <app-home-page *ngIf="activeButtonText === 'Home'"></app-home-page>
+    <app-pomodoro-page *ngIf="activeButtonText === 'Pomodoro'"></app-pomodoro-page>
+    <app-your-tasks-page *ngIf="activeButtonText === 'Your Tasks'"></app-your-tasks-page>
+    <app-calendar-page *ngIf="activeButtonText === 'Calendar'"></app-calendar-page>
+
+    <app-project-and-events-page *ngIf="activeButtonText === 'Projects & Events'"></app-project-and-events-page>
+    <app-archives-page *ngIf="activeButtonText === 'Archives'"></app-archives-page>
+
+    <app-archives-page *ngIf="activeButtonText === 'Leaderboard'"></app-archives-page>
+    <app-archives-page *ngIf="activeButtonText === 'Wanna Share Something Forum?'"></app-archives-page>
+</div>  

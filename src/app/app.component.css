@@ -1,0 +1,15 @@
+::ng-deep * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  scrollbar-width: thin; scrollbar-color: #FFFFFF rgba(217, 217, 217, 0.20); 
+  scroll-behavior: smooth;
+  background-color: #292929;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+}
